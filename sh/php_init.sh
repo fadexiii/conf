@@ -39,6 +39,7 @@ wget https://raw.githubusercontent.com/fadexiii/conf/master/php-fpm.conf
 
 #add to environment
 echo PATH=$PATH:/data/php/bin >> /etc/profile
+source /etc/profile
 
 #fpm auto-start
 echo /data/php/sbin/php-fpm >> /etc/rc.d/rc.local
