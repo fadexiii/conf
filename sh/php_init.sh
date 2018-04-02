@@ -46,4 +46,4 @@ echo /data/php/sbin/php-fpm >> /etc/rc.d/rc.local
 chmod 777 /etc/rc.d/rc.local
 
 #start fpm
-/data/php/sbin/php
+/data/php/sbin/php-fpm
